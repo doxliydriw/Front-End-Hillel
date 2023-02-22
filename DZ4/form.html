@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form action="#" method="post">
+      <div class="wrap">
+        <!-- Registration -->
+        <fieldset>
+          <legend>Реестрація</legend>
+
+          <p>
+            <label>
+              Ваше ім'я:*
+              <input
+                type="text"
+                name="name"
+                autofocus
+                autocomplete="off"
+                required
+              />
+            </label>
+          </p>
+          <p>
+            <label>
+              Телефон:*
+              <input type="tel" name="phone" required />
+            </label>
+          </p>
+          <p>
+            <label>
+              E-mail:*
+              <input type="email" name="email" required />
+            </label>
+          </p>
+          <p>
+            <label>
+              Пароль:*
+              <input type="password" name="pass" required />
+            </label>
+          </p>
+        </fieldset>
+        <!-- trip selection -->
+
+        <fieldset>
+          <legend>Підбір рейсу</legend>
+          <p>
+            <label>
+              Звідки:
+              <select name="from">
+                <optgroup label="Україна">
+                  <option value="Kyiv" selected>Київ</option>
+                  <option value="Odesa">Одеса</option>
+                  <option value="Dnipro">Дніпро</option>
+                </optgroup>
+                <optgroup label="Німеччина">
+                  <option value="Berlin">Берлін</option>
+                  <option value="Keln">Кельн</option>
+                  <option value="Munchen">Мюнхен</option>
+                </optgroup>
+              </select>
+            </label>
+          </p>
+          <p>
+            <label>
+              Куди:
+              <select name="to">
+				<optgroup label="Україна"></optgroup>
+                <option value="Kyiv">Київ</option>
+                <option value="Odesa" selected>Одеса</option>
+                <option value="Dnipro">Дніпро</option>
+			</optgroup>
+			<optgroup label="Німеччина">
+				<option value="Berlin">Берлін</option>
+				<option value="Keln">Кельн</option>
+				<option value="Munchen">Мюнхен</option>
+			  </optgroup>
+              </select>
+            </label>
+          </p>
+          <p>
+            <label>
+              Туди
+              <input type="date" name="date_to" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Назад
+              <input type="date" name="date_back" />
+            </label>
+          </p>
+
+          <p>
+            <label>
+              Кількість білетів
+              <input type="number" name="ticket_count" value="1" />
+            </label>
+            <!-- Kids -->
+          </p>
+
+          <p><b>Діти</b></p>
+          <p>
+            <label>
+              <input type="radio" name="kids" value="no_kids" />
+              Без дітей
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="radio" name="kids" value="1_kid" />
+              1 дитина
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="radio" name="kids" value="2_kids" />
+              2 дитини
+            </label>
+          </p>
+
+          <div>
+            <!-- Comfort -->
+            <p><b>Комфорт</b></p>
+            <p>
+              <label>
+                <input type="checkbox" name="more_leg_space" />
+                Більше місця для ніг
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" name="food" />
+                Їжа
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" name="more_bagagge_space" checked />
+                більше місця для багажу
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" name="place_near_the_window" />
+                Місце біля вікна
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" name="first_row_place" />
+                Місце в першому ряді
+              </label>
+            </p>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Інформація щодо страхування</legend>
+
+          <p>
+            <label>
+              <input type="checkbox" name="insurance" checked />
+              Мені потрібне страхування
+            </label>
+          </p>
+          <p>
+            <b>Завантажте копію паспорта</b>
+          </p>
+          <p>
+            <input type="file" />
+          </p>
+          <p>
+            <label>
+              <textarea
+                name="additional_info"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Додаткова інформація"
+              ></textarea>
+            </label>
+          </p>
+        </fieldset>
+        <p>
+          <button type="submit">відправити</button>
+          <button type="reset">очистити</button>
+        </p>
+      </div>
+    </form>
+  </body>
+</html>
