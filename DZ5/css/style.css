@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+}
+
+.body {
+  font-family: "Tahoma";
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.back_img {
+  background-image: url("../img/chris1.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-color: #343b42;
+}
+
+.container {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 32px;
+}
+
+.menu {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.menu a {
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+}
+
+.section_one {
+  padding-bottom: 52px;
+}
+
+.contact {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  background: #62d0df;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10.5px 50.33px;
+  margin-top: 50px;
+}
+
+.header_one {
+  text-transform: uppercase;
+  width: 505px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 110%;
+  color: #ffffff;
+  margin-top: 71px;
+}
+
+.par1 {
+  margin-top: 46px;
+  line-height: 140%;
+  color: #d6d6d6;
+  width: 505px;
+}
+
+.who_cnt {
+  margin-top: 53px;
+  margin-bottom: 31px;
+}
+
+.who {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  align-items: center;
+  color: #ffffff;
+  padding: 10.5px 50.33px;
+  background: #f9b640;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.what_cnt {
+  margin-top: 50px;
+}
+
+.what {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #fab63e;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.section_two {
+  background: #62d0df;
+  padding-bottom: 78px;
+}
+
+.header_two {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 65px 0 45px;
+}
+
+.list1 {
+  background: #c4c4c4;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.list1 p {
+  line-height: 140%;
+  color: #0b0b0b;
+  padding-top: 40px;
+}
+
+.section_three {
+  background-image: url("../img/straw.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.header_three {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #720e0e;
+  padding-top: 90px;
+  padding-bottom: 62px;
+}
+
+.list2 {
+  padding-bottom: 160px;
+}
+
+.list2 p {
+  line-height: 140%;
+  color: #ffffff;
+  padding-bottom: 31px;
+}
