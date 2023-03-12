@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Tahoma";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #eeeff1;
+  padding-bottom: 79px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.logo_cntr {
+  width: 430px;
+  float: left;
+}
+.logo {
+  float: left;
+  padding-top: 71px;
+}
+
+.navigation {
+  width: 680px;
+  float: left;
+  padding-top: 79px;
+}
+.navigation a {
+  letter-spacing: 0.1em;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navigation a:hover {
+  color: #34547a;
+}
+
+.section_one {
+  padding-top: 76px;
+  padding-bottom: 146px;
+  background: #f9f9f9;
+}
+
+.laptop_icon {
+  float: left;
+  width: 570px;
+  margin-top: 22px;
+}
+
+.design {
+  float: left;
+  width: 540px;
+}
+
+.design_header {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
+  color: #000000;
+}
+
+.design_text {
+  color: #727272;
+  padding-top: 50px;
+  padding-bottom: 56px;
+}
+
+.write_me a {
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #34547a;
+  padding: 25px 42px;
+}
+
+.section_two {
+  background: #eeeff1;
+}
+
+.work_header {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #000000;
+  padding-top: 46px;
+}
+
+.work_text {
+  color: #727272;
+  width: 540px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.background_code {
+  padding-top: 57px;
+  padding-bottom: 100px;
+}
+
+.section_three {
+  padding-bottom: 116px;
+}
+
+.projects_header {
+  font-size: 0px;
+  font-weight: 500;
+  line-height: 79px;
+  color: #000000;
+  text-align: center;
+}
+
+.project_list {
+  margin-left: 0;
+  padding-top: 141px;
+}
+
+.project_img {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 28px;
+}
+
+.project_img_mr_0 {
+  float: left;
+  margin-right: 0;
+  margin-bottom: 28px;
+}
+
+.footer {
+  background: #34547a;
+}
+
+.copyright {
+  float: left;
+  width: 950px;
+}
+
+.copyright_name {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-bottom: 18px;
+  padding-top: 39px;
+}
+
+.copyright_stamp {
+  font-size: 13px;
+  line-height: 21px;
+  color: #ffffff;
+  padding-bottom: 38px;
+}
+
+.social_links {
+  width: 160px;
+  float: right;
+}
+
+.twiter_link {
+  margin-top: 41px;
+  float: left;
+  margin-right: 34px;
+}
+
+.youtube_link {
+  margin-top: 42px;
+  float: right;
+}
